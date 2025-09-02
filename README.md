@@ -119,16 +119,10 @@ Project developed by :
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it - see the [LICENSE](./LICENSE) file for details.
-
-### ⚠️ Note on MiniLibX
-This project also includes [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx),  
-a lightweight graphics library developed by **Olivier Crouzet (1999–2015)** at **École 42**,  
-distributed under the **BSD License**.  
-
-- Redistribution and use are permitted under the conditions of the BSD license.  
-- Copyright and disclaimer must be retained in all redistributions.  
-- See the `minilibx/LICENSE` file for details. 
+This repository contains code under two different licenses:
+- The project code (FdF, MiniRT, etc.) is released under the MIT License.
+- The included MiniLibX library is released under the BSD License (© Olivier Crouzet, 1999–2015).
+Both licenses are provided in the [LICENSE](./LICENSE) file of this repository.
 
 > ⚠️ **Note for students**  
 > If you are a student at 42 (or elsewhere), it is strongly recommended **not to copy/paste** this code.  

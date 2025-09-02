@@ -1,6 +1,6 @@
 <div align="center">
   <h2>miniRT – 42 project RayTracer</h2>
-  <img src="./img/minirt.png" height="180"/>
+  <img src="./img/miniRT.png"/>
   <br>
 </div>
 

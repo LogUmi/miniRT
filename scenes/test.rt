@@ -1,0 +1,37 @@
+A 0.4 255,255,255
+C 0,0,-10 0,0,1 70
+L 10,5,10 0.9 255,255,255
+
+sp 0,0,10 2 255,0,0
+pl 0,-2,10 0,1,0 0,255,0
+cy 0,0,20 0,1,0 2 4 0,0,255
+co 0,5,15 5,-10,5 10 2 255,255,0
+#Lumière ambiante (A)
+#A (Ambiance)
+#A 0.2 255,255,255
+#→ Intensité 0.2, couleur blanche.
+#Caméra (C)
+#C (Caméra)
+#C 0,0,-10 0,0,1 70
+#→ Position (0,0,-10), direction (0,0,1), FOV 70°.
+#Lumières (L)
+#L (Lumière)
+#L 10,5,10 0.9 255,255,255
+#→ Position (10,5,10), intensité 0.9, couleur blanche.
+#Objets (sphère sp, plan pl, cylindre cy, etc.)
+#sp (Sphère)
+#sp 0,0,10 2 255,0,0
+#→ Centre (0,0,10), diamètre 2, couleur rouge.
+#pl (Plan)
+#pl 0,-2,10 0,1,0 0,255,0
+#→ Point sur le plan (0,-2,10), normale (0,1,0), couleur verte.
+#cy (Cylindre)
+#cy 0,0,20 0,1,0 2 4 0,0,255
+#→ Centre (0,0,20), axe (0,1,0), diamètre 2, hauteur 4, couleur bleue.
+
+#co : identifiant pour le cône
+#5,0,15 : centre du cône (exemple)
+#0,1,0 : axe du cône (vertical)
+#30 : angle d’ouverture en degrés (exemple)
+#6 : hauteur du cône (exemple)
+#255,255,0 : couleur jaune (exemple)

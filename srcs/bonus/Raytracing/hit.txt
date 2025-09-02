@@ -1,0 +1,44 @@
+void	hit_sphere(t_hit *hit, double t, t_ray ray, t_obj *obj)
+/*
+Calcule le point d’impact avec la sphère.
+Déduit la normale en soustrayant le centre du point d’impact (vecteur radial).
+Normalise la normale et vérifie son sens par rapport au rayon
+(elle doit pointer vers l’extérieur de l’objet visible).
+*/
+
+void	hit_plane(t_hit *hit, double t, t_ray ray, t_obj *obj)
+/*
+Le point d’intersection est simplement calculé.
+La normale est fixée d’emblée (plan infini : direction constante).
+Le test vec_dot(...) > 0 inverse la normale
+si elle pointe dans la mauvaise direction (face cachée).
+*/
+
+
+void	hit_cyl(t_hit *hit, double t, t_ray ray, t_obj *obj)
+/*
+Déduit la position d’impact (point) comme d’habitude.
+Calcule m, la projection du rayon sur l’axe du cylindre,
+pour localiser où sur le corps du cylindre l’impact a lieu.
+Déduit la normale à la surface latérale du cylindre par projection orthogonale.
+Corrige l’orientation si nécessaire.
+*/
+
+void	hit_cone(t_hit *hit, double t, t_ray ray, t_obj *obj)
+/*
+Similaire à hit_cyl, mais la surface conique
+nécessite un facteur de pente : 1 + tan²(angle).
+Calcule la normale en soustrayant l’axe pondéré de la direction de l’impact.
+Normalise, vérifie l’orientation.
+*/
+/*
+Elles remplissent la structure t_hit avec toutes
+les informations utiles au shading : position d’impact, normale, couleur, 
+distance (t) et drapeau d’intersection. Elles sont appelées
+uniquement si une intersection a été confirmée, 
+afin de stocker proprement les détails du "contact".
+Elles permettent au moteur de déterminer comment
+la lumière interagit avec chaque objet, 
+à l’endroit précis touché. Sans elles, le shading
+(ombres, lumières, reflets) serait impossible à calculer.
+*/

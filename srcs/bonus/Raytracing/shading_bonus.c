@@ -6,7 +6,7 @@
 /*   By: lgerard <lgerard@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 12:03:21 by lgerard           #+#    #+#             */
-/*   Updated: 2025/07/19 20:42:28 by lgerard          ###   ########.fr       */
+/*   Updated: 2025/09/05 00:07:34 by lgerard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,6 +104,7 @@ t_color	shade(t_app *app, t_scene *scene, t_hit *hit)
 	pt_amb(&final, hit->color, scene->amb);
 	while (light)
 	{
+		scene->culight = (void*)light;
 		init_light(light, hit, &light_dir, &light_dist);
 		if (!in_shadow(app, hit, light_dir, light_dist))
 		{

@@ -29,7 +29,7 @@ void	pt_phong(t_scene *scene, t_hit *hit, t_vec light_dir, t_color *final)
 	double	spec;
 	t_light	*light;
 
-	light = scene->lights;
+	light = scene->culight;
 	view_dir = vec_normalize(vec_sub(scene->cam.pos, hit->point));
 	reflect = vec_normalize(vec_sub(vec_scale(hit->normal, 2.0
 					* vec_dot(hit->normal, light_dir)), light_dir));

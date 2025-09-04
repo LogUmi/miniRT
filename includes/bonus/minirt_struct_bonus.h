@@ -199,6 +199,7 @@ typedef struct s_scene
 	int			cam_set;
 	int			amb_set;
 	int			light_set;
+	void		*culight;
 }				t_scene;
 
 typedef struct s_ray

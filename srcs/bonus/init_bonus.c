@@ -20,6 +20,7 @@ static void	init0(t_app *app)
 	app->bump[3] = NULL;
 	app->bump[4] = NULL;
 	app->fd = -1;
+	app->scene.culight = NULL;
 }
 
 void	init(t_app *app)

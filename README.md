@@ -86,7 +86,7 @@ This will generate an excutable miniRT_bonus.
 │	├── bonus/				# Bonus header files (.h)
 │	└──mandatory/			# Mandatory header files (.h)
 ├── libft/					# Authorized functions
-├── maps/
+├── scenes/
 │	├── bonus_scenes/		# Bonus map files
 │	│	└──fisheye/			# specific map for fisheye mode (auto)
 │	├── images/				# Texture images
@@ -105,8 +105,6 @@ This will generate an excutable miniRT_bonus.
 ---
 
 ## 🔎 Examples
-TO COMPLETE
-
 ```bash
 $ ./miniRT_bonus scenes/bonus_scenes/head0.rt 
 Scene scenes/bonus_scenes/head0.rt: file opened
@@ -135,6 +133,7 @@ Ligne générer 800/1000
 Ligne générer 850/1000
 Ligne générer 900/1000
 Ligne générer 950/1000
+
 <img height="750" src="./img/rt0.png"/>
 
 ```bash

@@ -133,7 +133,7 @@ Ligne générer 800/1000
 Ligne générer 850/1000
 Ligne générer 900/1000
 Ligne générer 950/1000
-
+```
 <img height="750" src="./img/rt0.png"/>
 
 ```bash
@@ -148,6 +148,7 @@ Other screen outputs:
 <img height="750" src="./img/rt3.png"/>
 
 Fisheye mode rendering:
+
 <img height="750" src="./img/rt5.png"/>
 
 <img height="750" src="./img/rt6.png"/>

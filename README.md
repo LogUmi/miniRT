@@ -84,7 +84,7 @@ This will generate an excutable miniRT_bonus.
 ├── img/                	# Content for README
 ├── includes/
 │	├── bonus/				# Bonus header files (.h)
-│	└──mandatory/			# Mandatory header files (.h)
+│	└── mandatory/			# Mandatory header files (.h)
 ├── libft/					# Authorized functions
 ├── scenes/
 │	├── bonus_scenes/		# Bonus map files
@@ -95,7 +95,7 @@ This will generate an excutable miniRT_bonus.
 ├── mlx_linux/				# MiniLibX library
 ├── srcs/
 │	├── bonus/				# Bonus source files (.c)
-│	└──mandatory/			# Mandatory source files (.c)
+│	└── mandatory/			# Mandatory source files (.c)
 ├── fr.subjectFdF.pdf		# Project subject
 ├── LICENSE			   		# License MIT
 ├── Makefile

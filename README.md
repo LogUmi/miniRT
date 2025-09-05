@@ -8,7 +8,7 @@
 ![Graphics](https://img.shields.io/badge/graphics-MiniLibX-orange)
 ![42](https://img.shields.io/badge/school-42-black)
 ![Norminette](https://img.shields.io/badge/norminette-passed-brightgreen)
-![Status](https://img.shields.io/badge/status-completedprogress-brightgreen)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 > **miniRT** is a basic **raytracer** implemented in C with **MiniLibX**.  
 > It renders simple 3D scenes with lighting and shadows.

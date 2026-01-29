@@ -20,6 +20,7 @@
 - [Features](#-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
+- [Project Structure](#-project-structure)
 - [Examples](#-examples)
 - [Roadmap](#-roadmap)
 - [Credits](#-credits)

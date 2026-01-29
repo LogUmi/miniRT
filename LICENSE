@@ -1,7 +1,6 @@
 MIT License
-===========
 
-Copyright (c) 2025 Loïc Gérard, Fabrice Valet
+Copyright (c) 2026 Loïc Gérard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,33 +20,42 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+----------------------------------------------------------------
 
-MiniLibX License (BSD)
-======================
+Third-Party Components Notice
 
-The MiniLibX library is licensed under the BSD License.
+This project makes use of third-party software and technologies, including but
+not limited to:
 
-Copyright (c) 1999-2015, Olivier Crouzet
-All rights reserved.
+- Docker® and Docker Compose®
+- NGINX®
+- MariaDB®
+- WordPress®
+- Redis®
+- Adminer®
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+These components are not redistributed as source code in this repository and
+remain under their respective licenses and trademarks.
 
-1. Redistributions of source code must retain the above copyright notice,
-   this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+The Docker images built in this project are based on official base images
+provided by their respective maintainers. Each third-party component is
+subject to its own license terms, which must be consulted separately.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-CTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Docker® is a registered trademark of Docker, Inc.
+WordPress® is a registered trademark of the WordPress Foundation.
+NGINX® is a registered trademark of F5, Inc.
+MariaDB® is a registered trademark of MariaDB Corporation Ab.
+Redis® is a registered trademark of Redis Ltd.
+
+This project itself is not affiliated with nor endorsed by any of the above
+companies.
+
+----------------------------------------------------------------
+
+Educational Notice (42 School)
+
+This repository was created as part of the 42 School curriculum.
+It is intended for educational purposes only.
+
+Students are strongly discouraged from copying this work directly.
+Writing your own implementation is essential for learning.
